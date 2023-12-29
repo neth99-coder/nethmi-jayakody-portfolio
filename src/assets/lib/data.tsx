@@ -14,7 +14,7 @@ import mongodbicon from "../../assets/icons/mongoicon.svg";
 import bitbucketicon from "../../assets/icons/bitbucket.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
 import giticon from "../../assets/icons/git.svg";
-
+import solidityicon from "../icons/solidity.svg";
 import axiosicon from "../../assets/icons/axiosicon.svg";
 
 import rendericon from "../../assets/icons/rendericon.svg";
@@ -106,6 +106,7 @@ export const projectsData = [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
+      {name: "Solidity", icon: solidityicon},
       { name: "React", icon: reacticon },
       { name: "JWT & Bcrypt", icon: jwticon },
       { name: "Axios", icon: axiosicon },
@@ -221,6 +222,12 @@ export const skillsDataWeb = [
       //   color: "#38B2AC",
       // },
       {
+        title: "Solidity",
+        hash: "#Solidity",
+        icon: solidityicon,
+        color: "#808080",
+      },
+      {
         title: "MongoDB",
         hash: "#MongoDB",
         icon: mongodbicon,
@@ -266,7 +273,7 @@ export const skillsDataDesign = [
 
 export const skillsDataCMS = [
   {
-    skillsTitle: "Project Management",
+    skillsTitle: "Other Tools",
     skills: [
       {
         title: "Bitbucket",
