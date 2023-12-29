@@ -43,7 +43,7 @@ const AboutMe: React.FC = () => {
   }
   return (
     <React.Fragment>
-      <section className="about-me relative mt-16 " id="about-me" ref={ref}>
+      <section className="about-me relative mt-16 mb-10" id="about-me" ref={ref}>
         <div className="title-container flex flex-col gap-6 justify-center items-center p-32 w-1/2 max-lg:w-full max-lg:p-16 max-lg:items-start">
           <motion.div
             ref={animationReference}
@@ -64,7 +64,7 @@ const AboutMe: React.FC = () => {
             </h2>
           </motion.div>
         </div>
-        <div className="bg-[--darkblue] text-[--white] row justify-center items-center gap-24 rounded-2xl p-20 border-solid border-[0.4rem] border-[--lightblue] hover:border-orange duration-500 transition-all text-left cursor-grab mb-6 w-[60vw] min-[1921px]:px-96 ">
+        <div className="bg-[--darkblue] text-[--white] row justify-center items-center gap-24 rounded-2xl p-20 border-solid border-[0.4rem] border-[--lightblue] hover:border-orange duration-500 transition-all text-left cursor-grab mb-6 w-[55%] ml-auto mr-auto">
     
 
           <article className="col-lg-12 col-md-9 col-ms-9">

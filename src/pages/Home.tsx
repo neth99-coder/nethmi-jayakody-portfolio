@@ -90,7 +90,7 @@ const Home: React.FC = () => {
               <LazyAboutMe />
               <Divider
                 thickness="0.25rem"
-                direction="inner-left-to-middle"
+                direction="middle"
                 color="lightblue"
                 height="middle"
                 dividerStyle="solid"
